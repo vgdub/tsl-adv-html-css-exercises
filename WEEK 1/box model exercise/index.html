@@ -5,25 +5,31 @@
 </head>
 <body>
   <div class='container'>
-    <div id='header'>
+    <header>
       <img height='50' id='logo' src='new-sl-logo.png'>
       <h1>
         <b>Welcome to Advanced HTML/CSS</b>
       </h1>
       <p>How comfortable are <i>YOU</i> with the box model?</p>
-    </div>
-    <div class='box-container group'>
-      <div class='one'>1</div>
-      <div class='two'>2</div>
-      <div class='three'>3</div>
-      <div class='four'>4</div>
-      <div class='five'>5</div>
-      <div class='six'>6</div>
-    </div>
-    <div class='clear' id='footer'>
+    </header>
+    <article class='box-container'>
+      <div class="column">
+        <div class='box'>1</div>
+        <div class='box'>2</div>
+      </div>
+      <div class="column">
+        <div class='box'>3</div>
+        <div class='box'>4</div>
+      </div>
+      <div class="column">
+        <div class='box'>5</div>
+        <div class='box'>6</div>
+      </div>
+    </article>
+    <footer class='clear' id='footer'>
       <p>
         <a href='#'>Email This Exercise To Yourself</a>
       </p>
-    </div>
+    </footer>
   </div>
 </body>
