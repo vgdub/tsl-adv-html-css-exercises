@@ -1,0 +1,39 @@
+/* General Styles */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.serif, h1, h2, h3, h4, h5, h6, legend {
+  font-family: Bitter,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.sans-serif, html, button, input, select, textarea {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+  color: #29ABE2;
+  text-align: center;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #C1272D;
+}
+
+/* EXERCISE STYLES */
+
+#quiz {
+	width: 100%;
+}
+
+.potato-head {
+	width: 400px;
+}
